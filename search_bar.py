@@ -38,8 +38,8 @@ class RollNumberSearchApp:
     def fetch_suggestions(self, query):
         conn = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="Ganesh@123",
+            user="XXXX",#enter your root
+            password="XXXXXX",#enter you mysql password
             database="college"
         )
         cursor = conn.cursor()
